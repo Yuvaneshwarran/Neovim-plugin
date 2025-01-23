@@ -137,8 +137,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
-Developed by **[Your Name](https://github.com/your-username)**. Feel free to reach out for questions or collaboration!
+Developed by **[Yuvaneshwarran R](https://github.com/yuvaneshwarran)**. Feel free to reach out for questions or collaboration!
 
-```
-yuvaneshwarran
-```
+
