@@ -1,5 +1,5 @@
-```markdown
-# Neovim-Plugin
+````markdown
+# Project Name
 
 ## Overview
 This project is a modular and highly customizable Neovim configuration written in Lua. It leverages the latest Neovim plugins and features to provide a modern, efficient, and enjoyable development experience.
@@ -50,7 +50,7 @@ This project is a modular and highly customizable Neovim configuration written i
 ├── init.lua
 ├── lazy-lock.json
 └── plugins.lua
-```
+````
 
 ---
 
@@ -86,12 +86,15 @@ Ensure you have the following installed:
 ## Configuration
 
 ### Plugins
+
 All plugin configurations are located under `lua/plugins/`. You can easily enable, disable, or customize plugins by editing these files.
 
 ### Keybindings
+
 Keybindings are defined within individual plugin configurations and the `init.lua` file. Modify them to suit your workflow.
 
 ### Themes
+
 Change the theme by modifying the `catppuccin.lua` file or replacing it with your preferred color scheme.
 
 ---
@@ -119,11 +122,23 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Screenshots
 
+### Neovim Dashboard
+![Neovim Dashboard](./assets/Neovim.png)
 
+### File Explorer (Neo-tree)
+![File Explorer](./assets/Neo-tree.png)
+
+### Telescope Integration
+![Telescope Plugin](./assets/Telescope.png)
+
+### Terminal 
+![Terminal](./assets/Terminal.png)
 ---
 
 ## Author
 
-Developed by **[Yuvaneshwarran](https://github.com/yuvaneshwarran)**. Feel free to reach out for questions or collaboration!
-```
+Developed by **[Your Name](https://github.com/your-username)**. Feel free to reach out for questions or collaboration!
 
+```
+yuvaneshwarran
+```
