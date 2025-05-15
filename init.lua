@@ -14,6 +14,15 @@ vim.opt.rtp:prepend(lazypath)
 require("vim-options")
 require("lazy").setup("plugins")
 
+vim.keymap.set("n", "<leader>rs", function()
+  for name,_ in pairs(package.loaded) do
+    if name:match("^user") or name:match("^plugins") then
+      package.loaded[name] = nil
+    end
+  end
+  dofile(vim.env.MYVIMRC)
+end, { desc = "Reload Neovim config" })
+
 
 -- Open terminal below (horizontal split)
 vim.keymap.set('n', '<leader>td', ':split | wincmd j | terminal<CR>', { noremap = true, silent = true })
