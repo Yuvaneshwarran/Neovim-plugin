@@ -12,9 +12,16 @@ return {
 					filetypes = { "cpp", "c", "h" }, -- Enable for C, C++, and headers
 				}),
 
+				-- 🟢 Go formatters
+				null_ls.builtins.formatting.gofmt,
+				null_ls.builtins.formatting.goimports,
+
 				-- Diagnostics (Optional)
 				null_ls.builtins.diagnostics.erb_lint, -- Ruby
 				null_ls.builtins.diagnostics.rubocop, -- Ruby
+
+				-- 🟢 Go linter (optional but powerful)
+				null_ls.builtins.diagnostics.golangci_lint,
 			},
 		})
 
